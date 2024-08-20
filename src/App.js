@@ -33,8 +33,9 @@ function App() {
       <About />
 <hr/>
       <Workout />
+<hr/>
       <Trainers/>
-      <Diet />
+    <Diet />
       <Contact />
       <Footer />
     </>
