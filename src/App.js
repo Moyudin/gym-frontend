@@ -31,6 +31,7 @@ function App() {
       </Navbar>
       <Home />
       <About />
+<hr/>
       <Workout />
       <Trainers/>
       <Diet />
