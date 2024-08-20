@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ol {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ol li {
+  margin-left: 20px;
+}
+
+.navbar ol li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.navbar .toggle {
+  display: none;
+}
+
+/* Sections */
+section {
+  padding: 60px 20px;
+}
+
+#home {
+  background: url('images/bgimg.jpg') no-repeat center center/cover !important;
+  /* color: #fff; */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.home .highlights {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home .tagline {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.home .join {
+  background: #ff5722;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.about, .workout, .trainers, .diet, .contact {
+  background: #f4f4f4;
+}
+
+.view .main {
+  text-align: center;
+}
+
+.view .main h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.view .main h6 {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  margin: 10px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.trainers .icons {
+  margin-top: 10px;
+}
+
+.icons i {
+  margin-right: 5px;
+}
+
+.diet .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.diet .cols {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.diet .cols img {
+  width: 100%;
+}
+
+.contact .form {
+  max-width: 600px; 
+  margin: 0 auto;
+}
+
+.contact .form .input-group {
+  margin-bottom: 15px;
+}
+
+.contact .form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact .form input,
+.contact .form textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact .form button {
+  background: #ff5722;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: #fff;
+}
+
+.footer-content .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
