@@ -22,7 +22,7 @@ const About = () => {
             <Image src={AboutImg} alt="About Us" fluid />
           </Col>
           <Col md={6}>
-            <h3 className="text-center">Our Mission</h3>
+            <h3 className="text-center mt-1">Our Mission</h3>
             <p>
               To provide top-notch fitness training and nutrition guidance to help you live a healthier, happier life.
             </p>
