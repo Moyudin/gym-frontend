@@ -42,6 +42,7 @@ const Diet = () => {
         </Row>
       </Container>
     </section>
+    <hr/>
     </>
   );
 };

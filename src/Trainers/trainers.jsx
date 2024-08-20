@@ -7,10 +7,10 @@ import trainer4 from "../images/trainer4.jpg";
 
 const Trainers = () => {
   const trainers = [
-    { img: trainer, name: "Someone Famous" },
-    { img: trainer2, name: "Someone Famous" },
-    { img: trainer3, name: "Someone Famous" },
-    { img: trainer4, name: "Someone Famous" },
+    { img: trainer, name: "Rosy White" },
+    { img: trainer2, name: "Dyna Dor" },
+    { img: trainer3, name: "James Sean" },
+    { img: trainer4, name: "Usain Bolt" },
   ];
 
   return (
@@ -36,7 +36,7 @@ const Trainers = () => {
                 <Card.Img variant="top" src={trainer.img} />
                 <Card.Body className="d-flex flex-column">
                   <Card.Title className="mt-auto">{trainer.name}</Card.Title>
-                  <Card.Text>Fitness Redefined Unleash the Athlete in You</Card.Text>
+                  {/* <Card.Text>Fitness Redefined Unleash the Athlete in You</Card.Text> */}
                   {/* <Button variant="primary" href="#">Explore</Button> */}
                 </Card.Body>
               </Card>
