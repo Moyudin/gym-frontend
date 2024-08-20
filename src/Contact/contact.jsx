@@ -91,9 +91,9 @@ const ContactForm = () => {
                             >
                                 <option value="">Choose...</option>
                                 <option value="Strength Training">Strength Training</option>
-                                <option value="Yoga">Yoga</option>
-                                <option value="Pilates">Pilates</option>
-                                <option value="Cardio">Cardio</option>
+                                <option value="Yoga">Yoga & Flexibility</option>
+                                
+                                <option value="Cardio">Cardio Blast</option>
                             </Form.Control>
                         </Form.Group>
 
